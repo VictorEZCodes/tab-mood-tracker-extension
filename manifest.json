@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Mood Tracker",
+  "version": "1.0",
+  "description": "Tracks your mood based on websites you visit",
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png"
+  }
+}
